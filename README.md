@@ -30,7 +30,7 @@ rmiregistry 1099 &
 ```
 
 ```bash
-java servidor/Servidor &
+java -cp . servidor.Servidor &
 ```
 
 ---
@@ -38,7 +38,7 @@ java servidor/Servidor &
 ## No Cliente:
 
 ```bash
-java cliente/Cliente 
+java -cp . cliente.Cliente 
 ```
 
 ---
