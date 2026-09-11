@@ -2,6 +2,8 @@
 
 # Ordem dos Comandos:
 
+---
+
 ## Compilação:
 
 ```bash
@@ -16,16 +18,26 @@ javac Server.java
 javac Client.java
 ```
 
-No Servidor:
+---
+
+## No Servidor:
+
+**OBS**: O `start` coloca os processos em *background*. 1099 é o número da porta (porta padrão em Java RMI).
+
 ```bash
-start /min rmiregistry 1099 //O start coloca os processos em background. 1099 é o número da porta (porta padrão em Java RMI).
+start /min rmiregistry 1099 
 ```
 
 ```bash
 start java Server
 ```
 
-No Cliente:
+---
+
+## No Cliente:
+
 ```bash
 start java Client
 ```
+
+---
