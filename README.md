@@ -11,27 +11,23 @@ javac servico/*.java
 ```
 
 ```bash
-javac jservidor/*.java
+javac servidor/*.java
 ```
 
 ```bash
-javac Client.java
+javac cliente/*.java
 ```
 
 ---
 
 ## No Servidor:
 
-**OBS**: O `start` coloca os processos em *background*. 1099 é o número da porta (porta padrão em Java RMI).
-
 ```bash
 rmiregistry 1099 &
-start /min rmiregistry 1099 
 ```
 
 ```bash
-java Server &
-start java Server
+java servidor/Servidor &
 ```
 
 ---
@@ -39,7 +35,7 @@ start java Server
 ## No Cliente:
 
 ```bash
-start java Client
+java cliente/Cliente 
 ```
 
 ---
