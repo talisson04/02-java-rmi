@@ -23,11 +23,13 @@ javac cliente/*.java
 
 ---
 
-## No Servidor:
+## Iniciar o RMI Registry:
 
 ```bash
 rmiregistry 1099 &
 ```
+
+## Iniciar o Servidor:
 
 ```bash
 java -cp . servidor.Servidor &
@@ -35,7 +37,7 @@ java -cp . servidor.Servidor &
 
 ---
 
-## No Cliente:
+## Iniciar o Cliente:
 
 ```bash
 java -cp . cliente.Cliente 
