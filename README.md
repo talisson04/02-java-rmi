@@ -11,7 +11,7 @@ javac servico/*.java
 ```
 
 ```bash
-javac Server.java
+javac jservidor/*.java
 ```
 
 ```bash

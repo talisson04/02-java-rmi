@@ -6,7 +6,7 @@ import java.rmi.registry.Registry;
 
 import servico.Cumprimento;
 
-public class Client {
+public class Cliente {
   public static void main(String[] args) {
     String host = (args.length < 1) ? null : args[0];
     
