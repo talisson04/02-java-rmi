@@ -1,7 +1,7 @@
 package servico;
 
 public class Servico implements Cumprimento {
-  public Servidor() {
+  public Servico() {
   }
 
   public String cumprimentar() {
