@@ -25,10 +25,12 @@ javac Client.java
 **OBS**: O `start` coloca os processos em *background*. 1099 é o número da porta (porta padrão em Java RMI).
 
 ```bash
+rmiregistry 1099 &
 start /min rmiregistry 1099 
 ```
 
 ```bash
+java Server &
 start java Server
 ```
 
