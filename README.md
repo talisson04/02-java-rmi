@@ -70,4 +70,4 @@ kill 34209
 ```
 # Exercício
 
-1. Usando Java RMI, implementar um serviço que retorne um número aleatório no intervalo de 0 a 100.
+1. Usando Java RMI, implementar um serviço remoto que retorne um número aleatório no intervalo de 50 a 150.
