@@ -1,5 +1,7 @@
 # 01-java-rmi
 
+---
+
 # Ordem dos Comandos:
 
 ```bash
@@ -28,6 +30,8 @@ javac cliente/*.java
 ```bash
 rmiregistry 1099 &
 ```
+
+---
 
 ## Iniciar o Servidor:
 
@@ -64,3 +68,6 @@ kill 29495
 ```bash
 kill 34209
 ```
+# Exercício
+
+1. Usando Java RMI, implementar um serviço que retorne um número aleatório no intervalo de 0 a 100.
