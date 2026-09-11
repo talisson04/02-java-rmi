@@ -5,6 +5,9 @@ import java.rmi.registry.LocateRegistry;
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
 
+import servico.Cumprimento;
+import servico.Servico;
+
 public class Sevidor {
   public static void main(String args[]) {
     try {
