@@ -8,7 +8,7 @@ import java.rmi.server.UnicastRemoteObject;
 import servico.Cumprimento;
 import servico.Servico;
 
-public class Sevidor {
+public class Servidor {
   public static void main(String args[]) {
     try {
       Servico servico = new Servico();
