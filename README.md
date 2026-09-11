@@ -7,7 +7,7 @@
 ## Compilação:
 
 ```bash
-javac Hello.java
+javac servico/*.java
 ```
 
 ```bash
