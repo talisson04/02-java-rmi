@@ -2,6 +2,9 @@
 
 # Ordem dos Comandos:
 
+```bash
+cd 01-cumprimento/
+```
 ---
 
 ## Compilação:
